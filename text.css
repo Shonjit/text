@@ -29,11 +29,14 @@ ul li{
 	 color:#000;
 	 
  }
- /ul li.active a{
+   ul li.active a{
 	  background-color:white;
 	 color:#000;/
 	 
- }
+    }
+.main .fa{margin-right:8px;
+	
+}
 .logo{
 	float:left;
 	width:80px;
@@ -47,16 +50,26 @@ ul li{
 	position:absolute;
 	top:50%;
 	left:50%;
- transform:translate(-50%,-50%);
- color:white;
+   transform:translate(-50%,-50%);
+   color:white;
+   background-color:black;
  }
  
 
 #a{
 	position:absolute;
-	top:55%;
+	top:60%;
 	left:50%;
 	transform:translate(-50%,-50%);
 }
+.a2{border:1px solid white;
+	padding: 5px 10px;
+	color:red;
+	text-decoration:none;
+
+}
+.a2:hover{
+	background-color:white;
+	color:black;
 	
-	
+}
